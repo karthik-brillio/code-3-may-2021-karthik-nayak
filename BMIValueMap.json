@@ -1,0 +1,38 @@
+{
+    "minimalBmi":{
+        "lowerLimit": 0,
+        "upperLimit":18.4,
+        "healthRiskCategory":"Malnutrition risk",
+        "category":"Underweight"
+    },
+    "lowBmi":{
+        "lowerLimit": 18.5,
+        "upperLimit":24.9,
+        "healthRiskCategory":"Low risk",
+        "category":"Normal weight"
+    },
+    "enhancedBmi":{
+        "lowerLimit": 25,
+        "upperLimit":29.9,
+        "healthRiskCategory":"Enhanced risk",
+        "category":"Overweight"
+    },
+    "mediumdBmi":{
+        "lowerLimit": 30,
+        "upperLimit":34.9,
+        "healthRiskCategory":"Medium risk",
+        "category":"Moderately obese"
+    },
+    "highBmi":{
+        "lowerLimit": 35,
+        "upperLimit":39.9,
+        "healthRiskCategory":"High risk",
+        "category":"Severely obese"
+    },
+    "veryHighBmi":{
+        "lowerLimit": 40,
+        "upperLimit":100,
+        "healthRiskCategory":"Very High risk",
+        "category":"Very Severely obese"
+    }
+}
