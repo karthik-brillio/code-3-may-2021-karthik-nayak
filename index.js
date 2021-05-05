@@ -9,4 +9,9 @@ let people = new People();
  */
 console.log(people.getPeopleBasedOnCategory('Overweight'));
 
+/**
+ * pass the risk category as the argument to fetch the content from the files
+ * prints the array with person details
+ * option to pass the argument Malnutrition risk, Low risk, Enhanced risk, Medium risk, High risk, very high risk
+ */
 console.log(people.getPeopleBasedOnRiskCategory('Very High risk'));

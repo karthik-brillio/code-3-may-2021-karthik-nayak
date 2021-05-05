@@ -1,5 +1,6 @@
 install the node modules by running 'npm install' command
 index.js file has the code to manually run and print the results
+"npm start" can also be used to to run the project
 People class has the imported data and code for calulating the BMI values and deciding the category values
 category limits and data is includec in files data.json and BMIValueMap.json respectively
 to test the modue run "npm run test" command
