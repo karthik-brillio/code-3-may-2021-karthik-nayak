@@ -6,6 +6,7 @@ module.exports =  class People {
      * constructor takes the dat from data.json file
      * calculates BMI values
      * decides the category and updates the objects
+     * write the result to new file using writesync
      */
     constructor() {
         this.userData = userData;
